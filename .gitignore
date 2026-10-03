@@ -1,0 +1,49 @@
+# Obsidian workspace files - these are machine-local
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Obsidian trash
+.trash/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Private content convention
+# Git cannot filter by Obsidian tag, so match on filename.
+# Any file with "private" or "PRIVATE" in the name is excluded.
+*private*
+*PRIVATE*
+
+# Legacy folder is personal - never pushed to public remote
+Legacy/
+
+# Agent session logs often contain context you may not want public
+08-AI/
+
+# Daily notes often contain personal content
+01-Daily-Notes/
+
+# Dreams folder is personal by default
+09-Dreams/
+
+# Local scratch
+scratch/
+tmp/
+
+# Attachments can be large - uncomment if you prefer to keep binaries out of git
+# 07-Attachments/
+
+# Secrets - never commit these
+*.env
+*.key
+*.pem
+secrets/
