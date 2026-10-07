@@ -1,4 +1,4 @@
-# Obsidian workspace files - these are machine-local
+# Obsidian workspace files - machine-local
 .obsidian/workspace
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
@@ -13,44 +13,34 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
-# Editor
+# Editors
 .vscode/
 .idea/
 
-# Private content convention
-# Git cannot filter by Obsidian tag, so match on filename.
-# Any file with "private" or "PRIVATE" in the name is excluded.
+# Personal/private content conventions
 *private*
 *PRIVATE*
-
-# Legacy folder is personal - never pushed to public remote
 Legacy/
-
-# Agent session logs often contain context you may not want public
-08-AI/
-
-# Daily notes often contain personal content
 01-Daily-Notes/
-
-# Dreams folder is personal by default
+08-AI-History/
 09-Dreams/
+99-System/companion/
 
 # Local scratch
 scratch/
 tmp/
 
-# Attachments can be large - uncomment if you prefer to keep binaries out of git
+# Optional large binaries
 # 07-Attachments/
 
-# Secrets - never commit these
+# Secrets
 *.env
 *.key
 *.pem
 secrets/
 
-
-# Generated personal agent charters
-# The templates are tracked under agent-setup/. The filled-in copies are personal.
+# Generated personal Vault Agent charters
+# Templates are tracked under vault-agent/templates/.
 CLAUDE.md
 CODEX.md
 AGENTS.md
