@@ -47,3 +47,10 @@ tmp/
 *.key
 *.pem
 secrets/
+
+
+# Generated personal agent charters
+# The templates are tracked under agent-setup/. The filled-in copies are personal.
+CLAUDE.md
+CODEX.md
+AGENTS.md
