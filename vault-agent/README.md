@@ -25,14 +25,17 @@ Companion Agent
 ```text
 vault-agent/
 ├── README.md
-├── PROMPTS.md
 ├── templates/
 │   ├── AGENTS.md.template
 │   ├── CLAUDE.md.template
 │   └── CODEX.md.template
-└── scripts/
-    ├── bootstrap-vault.sh
-    └── bootstrap-vault.ps1
+├── scripts/
+│   ├── bootstrap-vault.sh
+│   └── bootstrap-vault.ps1
+├── workflows/
+├── security/
+├── guides/
+└── examples/
 ```
 
 ## Which rule file should I use?
@@ -202,7 +205,7 @@ Use them only if you already downloaded this repository and want automation.
 
 Copy-paste prompts for your vault-aware agent. Each one is in a code block so you can grab the whole thing cleanly. Sections grouped by job.
 
-If a prompt does not match your folder names, adjust the paths. Everything assumes the folder structure in `../guides/vault-structure.md`.
+If a prompt does not match your folder names, adjust the paths. Everything assumes the folder structure in `guides/vault-structure.md`.
 
 ---
 
@@ -236,7 +239,7 @@ Create a new file at 99-MOC/overview.md that links out to every active project i
 ### Clean a raw dump
 
 ```
-Open 00-Inbox/raw.md. Split the content into separate notes grouped by topic. For each note, propose a filename and target folder based on ../guides/vault-structure.md. Show me the plan before you move anything.
+Open 00-Inbox/raw.md. Split the content into separate notes grouped by topic. For each note, propose a filename and target folder based on guides/vault-structure.md. Show me the plan before you move anything.
 ```
 
 ### Pull out action items
