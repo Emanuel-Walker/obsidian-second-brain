@@ -6,7 +6,7 @@
 
 ## The hero shot
 
-![Knowledge graph after six months of daily use](../images/vault-graph-example.png)
+![Knowledge graph after six months of daily use](../../images/vault-graph-example.png)
 
 _This vault had about six months of daily use with an agent helping maintain the links. Every node is a note. Every edge is a `[[wikilink]]`. The dense clusters near the center are the active projects and the people most involved. The outer satellites are reference material, resources, and ideas that have not yet connected back to anything._
 
