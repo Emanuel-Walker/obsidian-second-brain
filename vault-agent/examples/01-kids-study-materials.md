@@ -17,7 +17,7 @@ The two sample images below were generated inside Obsidian for a kids program. T
 
 ## Worksheet sample
 
-![Kids worksheet sample - generated inside Obsidian](../images/kids-worksheet-sample.png)
+![Kids worksheet sample - generated inside Obsidian](assets/kids-worksheet-sample.png)
 
 _This is a crossword activity for a kids study program. It was generated from a short lesson stored in the vault. Swap in your own domain and the same workflow produces security quiz worksheets, language drills, or team onboarding handouts._
 
@@ -25,7 +25,7 @@ _This is a crossword activity for a kids study program. It was generated from a 
 
 ## Coloring page sample
 
-![Kids coloring sample - generated inside Obsidian](../images/kids-coloring-sample.png)
+![Kids coloring sample - generated inside Obsidian](assets/kids-coloring-sample.png)
 
 _A coloring page tied to the same lesson. The agent produced a text prompt for the image generator and a caption for the page. Again, the domain is swappable. The workflow is the point._
 
